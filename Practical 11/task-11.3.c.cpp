@@ -12,7 +12,7 @@ public:
     }
 };
 
-class C:
+class C
 {
 public:
     int k;
