@@ -41,5 +41,6 @@ public:
 int main()
 {
     D obj;
+    obj.k=10;
     obj.displayD();
 }
