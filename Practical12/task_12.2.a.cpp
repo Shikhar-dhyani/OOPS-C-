@@ -30,4 +30,5 @@ int main()
 {
     cout << "Called Constructor of C" << endl
          << "............." << endl;
+    C obj;
 }
