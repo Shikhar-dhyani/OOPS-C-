@@ -28,4 +28,11 @@ public:
 int main()
 {
     C obj;
+      cout << "calling of Class A Destructor" << endl;
+         obj.~A();
+           cout <<endl<< "calling of Class B Destructor" << endl;
+          obj.~B();
+            cout<<endl << "calling of Class C Destructor" << endl;
+          obj.~C();
+            cout <<endl<< "Default Destructor called as Program Ends" << endl;
 }
